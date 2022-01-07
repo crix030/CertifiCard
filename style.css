@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+body {
+  background:  linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+}
+
+.container {
+  background: #ECF4FF;
+  color: #1C1C1C;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 30px;
+}
+
+.perfil {
+  display: flex;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+h1{
+  font-family: 'Licorice', cursive;
+  height: 50px;
+}
+h3 {
+  font-family: 'Pushster', cursive;;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-Weight: 400;
+  font-Size: 24px;
+  font-family: Roboto;
+  padding: 8px 16px;
+  border-radius: 100px;
+  background: #ECF4FF;
+}
+
+
+.perfil-foto {
+ 
+  height: 200px;
+  max-height: 300px;
+  border-radius: 100px;
+  box-shadow : 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo  {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+font-Weight: 800;
+font-size: 36px;
+}
+
+.titulo h3 {
+font-Weight: 400;
+font-size: 24px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background: #bee1e8;
+  border-radius: 20px;
+  margin-top: 32px;
+  padding: 0px;
+}
+
+.contain {
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);;
+  color: #1C1C1C;
+  margin: 20px;
+  border-radius: 80px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 30px;
+  
+}
+.projetos-titulo {
+  list-style: none;
+  font-Weight: 700;
+  font-size: 24px;
+  
+}
+.item {
+  list-style-type: none;
+  font-size: 24px;
+  font-color: red;
+  font-family: 'Inconsolata', monospace;
+  font-Weight: 400;
+  line-height: 48px;
+}
+
+.item a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.codepen {
+  border-radius: 20px;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+
+.dark .contain {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+
+.dark .projetos {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  background: #1C1C1C;
+  color: #FFFFFF;
+  border: 2px solid #F7F7F7;
